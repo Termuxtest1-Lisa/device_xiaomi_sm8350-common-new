@@ -51,3 +51,9 @@ persist.vendor.sensors.enable.mag_filter=true
 
 # WFD
 persist.debug.wfd.enable=1
+
+# InfinityX
+ ro.infinity.soc=Snapdragon® 778G
+ ro.infinity.battery=4250 mAh
+ ro.infinity.display=1080 x 2400 , AMOLED 90hz
+ ro.infinity.camera=64mp+8mp+5mp & 20mp
