@@ -197,6 +197,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     hardware/qcom-caf/sm8350/display/config/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml
 
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,90)
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
